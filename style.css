@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+    background: darkgreen;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(192, 0, 0) underline;
+}
+
+#gameboard{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    width: 700px;
+    border: 2px solid black;
+    margin: 60px auto;
+    background-color: black;
+    
+}
+
+#snake{
+    position: absolute;
+    background-color: green;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+#eat{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border: 2px solid black;
+ 
+}
